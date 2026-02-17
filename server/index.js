@@ -23,7 +23,7 @@ app.post(
 );
 
 app.use(cors(
-    {origin:"https://exam-notes-generator.vercel.app/auth",
+    {origin:"https://examnotes-generator-client.onrender.com",
         credentials:true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
