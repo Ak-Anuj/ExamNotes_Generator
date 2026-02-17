@@ -23,7 +23,7 @@ app.post(
 );
 
 app.use(cors(
-    {origin:"http://localhost:5173",
+    {origin:"https://exam-notes-generator.vercel",
         credentials:true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
